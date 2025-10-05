@@ -1,6 +1,6 @@
 Option Explicit
 
-Const ONE_MB = 1024 * 1024
+Const ONE_MB = 1048576 ' 1024 * 1024
 
 Dim targetPath
 If WScript.Arguments.Count > 0 Then
